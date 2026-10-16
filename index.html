@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Student Mentoring Portal</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<section id="login" class="login"><form data-f="login">
+  <h1>Student Mentoring Portal</h1>
+  <label>Email<input name="email" type="email" required autocomplete="username"></label>
+  <label>Password<input name="password" type="password" required autocomplete="current-password"></label>
+  <button class="pri">Sign in</button>
+</form></section>
+<div id="app" hidden>
+  <header><b>Mentoring Portal</b><nav id="nav"></nav><span id="who"></span><button data-a="logout">Sign out</button></header>
+  <main id="main"></main>
+</div>
+<div id="modal" hidden><div class="mc"><button class="x" data-a="close">×</button><div id="mb"></div></div></div>
+<div id="toast"></div>
+<script src="/static/app.js"></script>
+</body></html>
