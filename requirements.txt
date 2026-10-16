@@ -1,0 +1,4 @@
+Flask>=3.0
+PyJWT>=2.7
+openpyxl>=3.1
+# gunicorn>=21  (recommended for production)
